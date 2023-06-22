@@ -21,7 +21,7 @@ REACT_APP_INFURIA_API=<INFURIA_API_KEY_SECRET_HERE>
 
 1.1 Install Truffle and Ganache
 
-```json
+```
 npm install -g truffle
 npm install ganache --global
 ```
