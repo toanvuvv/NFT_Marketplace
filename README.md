@@ -2,7 +2,7 @@
 
 1. Clone out project via Github link:
 
-```json
+```
 git clone https://github.com/toanvuvv/NFT_Marketplace.git
 cd NFT_Marketplace && yarn install
 ```
@@ -12,7 +12,7 @@ cd NFT_Marketplace && yarn install
 - Create “.evn” file in the home folder of Project
 - Enter your Own API key from Infuria
 
-```json
+```
 REACT_APP_INFURIA_PID=<INFURIA_API_KEY_HERE>
 REACT_APP_INFURIA_API=<INFURIA_API_KEY_SECRET_HERE>
 ```
@@ -28,7 +28,7 @@ npm install ganache --global
 
 1.2 Run the Local Blockchain Network
 
-```json
+```
 ganache -d
 ```
 
@@ -47,7 +47,7 @@ Add the local blockchain network in MetaMask by entering the RPC URL and Chain I
 
 - Open new terminal tab
 
-```json
+```
 truffle migrate --reset
 ```
 
@@ -55,7 +55,7 @@ truffle migrate --reset
 
 - Open new terminal tab
 
-```json
+```
 yarn start
 ```
 
