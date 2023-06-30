@@ -47,10 +47,16 @@ Add the local blockchain network in MetaMask by entering the RPC URL and Chain I
 
 - Open new terminal tab
 
-```
-truffle migrate --reset
-```
+``` 
+truffle migrate -- reset 
 
+
+```
+Truffle will discard the existing deployment status and re-deploy all contracts from the beginning. It ensures that all contracts are deployed again, even if they were previously deployed.
+```
+truffle migrate 
+```
+This command will initiate the migration process, and Truffle will deploy any new or modified contracts to the designated blockchain network.
 ### 3. Run web
 
 - Open new terminal tab
